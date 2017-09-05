@@ -6,6 +6,7 @@ body{
   height: 150px;
   display: block;
   margin: auto;
+  background-color: #00bfff
 }
 
 #page_title{
@@ -14,29 +15,58 @@ body{
   margin-top: -30px;
 }
 
-#devour {
-  display: inline-block
-}
-
 .button-size {
   text-align: center;
 }
 
-#submit {
-  background-color: #f44336;
+#devour{
+  float:right;
 }
 
-ul {
-  margin: 85px;
-  /* margin: -25px; */
+
+#burgersAvailable {
+  margin-left: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}  
+
+#notEaten {
+  width: 250px;
+  padding: 10px;
+  margin: 15px;
+   background: #f5f5f5; 
+} 
+
+ #devour {
+   margin-right: -100px;
+
+} 
+
+ #eaten {
+  width: 250px;
+  padding: 10px;
+  background: #f5f5f5;
+  margin:1px;
+  margin-left: 800px;
+} 
+
+ #burgerEaten {
+   position:absolute;
+   top: 231px;
+   opacity: 0.5;
+   color: #5f9ea0;
+} 
+
+.bottom {
+  padding-top: 150px;
 }
 /* style="width:150px;height:150px; margin-bottom: 10px">
 
-li {
+ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
-}
+} 
 
 .label {
   font-weight: bold;
