@@ -1,0 +1,53 @@
+body{
+  background-color: #00bfff;
+}
+#burger_pic {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+#page_title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+#devour {
+  display: inline-block
+}
+
+.button-size {
+  text-align: center;
+}
+
+#submit {
+  background-color: #f44336;
+}
+
+ul {
+  margin: 85px;
+  /* margin: -25px; */
+}
+/* style="width:150px;height:150px; margin-bottom: 10px">
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+} */

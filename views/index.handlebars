@@ -1,0 +1,42 @@
+<div class = "row">
+<img id = "burger_pic" src = "/assets/images/burger_2.jpg" alt = "burger-pic">
+</div>
+
+<div id = "page_title">
+  <h5>Eat-Da-Burger!</h5>
+</div>
+
+ 
+<ul>
+  {{#each burgers}}
+   {{#unless this.devoured}}
+    <li>
+   
+        {{!-- {{this.id}}. {{this.burger_name}} --}}
+
+        <form action="{{this.id}}?_method=PUT" method="POST">
+          {{!-- <input type="hidden" name="devoured" value="false"> --}}
+          <text type = "text" name="new_burger" rows="5">{{this.burger_name}}</textarea>
+          <button id = "devour" type="submit">Devour it!</button>
+        </form>
+      </p>
+    </li>
+    {{/unless}}
+  {{/each}}
+</ul> 
+
+
+<form method="POST" action="/" class="button-size">
+	<textarea type="text" name="burger" rows="5" cols="50"></textarea>
+  <br>
+	<button id="submit" type="submit">Submit</button>
+    <h2>Enter a burger you want to eat.  Click the "submit" button.</h2>
+</form>
+
+{{!-- <h2>Update a Movie</h2>
+<form action="/?_method=PUT" method="POST" class="button-size">
+  <input type="text" name="id" placeholder="id">
+	<textarea type="text" name="movie" placeholder="what do you want to update this movie title to?"></textarea>
+	<button type="submit">Update Movie!</button>
+</form> --}}
+
