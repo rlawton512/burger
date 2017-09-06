@@ -8,4 +8,4 @@
 
 * The app will store every burger in a database, whether devoured or not.
 
-* This app uses: **MySQL, Node, Express, Handlebars, and an ORM. 
+* This app uses: **MySQL, Node, Express, Handlebars, and an ORM.** 
